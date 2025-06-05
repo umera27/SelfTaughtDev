@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: linear-gradient(to bottom right, #FF5C2E, #FFAB17);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Times new Roman, Sans-Serif;
+}
+
+.heading{
+    text-align: center;
+    
+}
+ 
+.container {
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid blueviolet;
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 3px white;
+}
+
+.user_to_do_input {
+    padding: 1em 0.5em;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    min-width: 280px;
+}
+
+.user_to_do_input:hover {
+    border: 1px solid black;
+}
+
+.button {
+    padding: 0.5em 0.5em;
+    margin: 15px;
+    transition-duration: 1s;
+}
+
+.button:hover {
+    background-color: yellow;
+    transform: translateX(26px);
+}
+
+.paragraph{
+    text-align: center;
+    list-style: circle;
+}
+#container{
+    color: white;
+}
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (max-width:600px) and (orientation: landscape) {}
+
+@media only screen and (min-width:601) and (max-width:1200px) {
+    .heading {
+        color: orange;
+    }
+}
+
+@media (min-width:900px ) {
+html {
+    background: linear-gradient(to bottom right, #5DFF82, #CAFF74);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Times new Roman, Sans-Serif;
+}
+    .heading {
+        color: black;
+    }
+
+    .container {
+        margin: 45px;
+        padding: 55px;
+        border: 1px solid blueviolet;
+        height: 50vh;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px 3px white;
+    }
+
+    .user_to_do_input {
+        padding: 1em 0.5em;
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        width: 450px;
+    }
+    .paragraph{
+    padding: 0.5em 0.5em;
+    border: 1px solid  #925DFF;
+    background-color:white;
+    border-radius: 15px;
+    width:200px;
+    margin: 20px;
+    animation-duration: 1s;
+    }
+    .paragraph:hover{
+    box-shadow: 1px 2px 3px 4px #9D74FF;
+    }
+    .footer{
+    display: flex;
+   justify-content: center;
+   align-content: center;
+   align-self: center;
+    }
+}
